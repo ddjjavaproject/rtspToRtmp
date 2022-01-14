@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Video.js | HTML5 Video Player</title>
+    <link href="http://vjs.zencdn.net/5.20.1/video-js.css" rel="stylesheet">
+    <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+</head>
+<body width="640px" height="360px">
+
+<div style="margin-top: 100px; margin-left: 70px">
+    <h1>视频</h1>
+    <video id="example_video_1" class="video-js vjs-default-skin" controls
+           preload="auto" width="352px" height="198px" data-setup="{}"
+           style="float: left">
+        <source src="rtsp://admin:a1234567@60.31.88.198:10554/Streaming/Channels/101?transportmode=unicast" type="rtmp/flv">
+        <p class="vjs-no-js">
+            To view this video please enable JavaScript, and consider upgrading
+            to a web browser that <a
+                href="http://videojs.com/html5-video-support/" target="_blank">supports
+            HTML5 video</a>
+        </p>
+    </video>
+</div>
+<script src="http://vjs.zencdn.net/5.20.1/video.js"></script>
+</body>
+</html>
